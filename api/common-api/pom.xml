@@ -54,6 +54,12 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
+            <artifactId>atlas-netscaler-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
             <artifactId>atlas-null-service</artifactId>
             <version>${project.version}</version>
         </dependency>

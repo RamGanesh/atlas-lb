@@ -89,7 +89,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `host` WRITE;
 /*!40000 ALTER TABLE `host` DISABLE KEYS */;
-INSERT INTO `host` VALUES (2,'100','ACTIVE_TARGET','10.2.2.3',1500,'host1_cluster1','https://lbdevice_ipaddress:9090/config','lbdevice.atlas.openstack.org',1,'A',1,'::1','10.0.0.0','0.0.0.0','::');
+INSERT INTO `host` VALUES (2,'100','ACTIVE_TARGET','10.2.2.3',1500,'host1_cluster1','http://10.70.177.135:4301/v1','netscaler_dev01.mycloud.org',1,'A',1,'::1','10.0.0.0','0.0.0.0','::');
 /*!40000 ALTER TABLE `host` ENABLE KEYS */;
 UNLOCK TABLES;
 

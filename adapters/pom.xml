@@ -15,8 +15,9 @@
 
     <modules>
         <module>common</module>
-        <module>zxtm</module>
         <module>null</module>
+        <module>zxtm</module>
+        <module>netscaler</module>
     </modules>
 
     <properties>
